@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+h1 {
+  font-family: 'Charm', cursive;
+}
+
 h4 {
   color: gray;
 }

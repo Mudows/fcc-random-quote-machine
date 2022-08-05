@@ -27,6 +27,7 @@ export default function QuoteBox () {
           id="tweet-quote"
           className="btn btn-primary col-5"
           href="twitter.com/intent/tweet"
+          target="_blank"
         >
           Tweet Quote
         </a>
@@ -34,7 +35,7 @@ export default function QuoteBox () {
       {quoteData && (
         <>
           <h1 className="text-center" id="text">{`"${quoteData.content}"`}</h1>
-          <h4 className="text-center" id="author"><em>{`- ${quoteData.author}`}</em></h4>
+          <h4 className="text-end mt-3" id="author"><em>{`- ${quoteData.author}`}</em></h4>
         </>
       )}
     </div>
