@@ -10,14 +10,14 @@ export default function QuoteBox () {
 
   return (
     <div
-      className="container-md col-8 mt-5"
+      className="container col-8 mt-5"
       id="quote-box"
     >
-      <div className="mx-auto mb-5">
+      <div className="row mb-5 col-4 mx-auto">
         <button
           type="button"
           id="new-quote"
-          className="btn btn-success"
+          className="btn btn-success col-5"
           onClick={ ()=> fetchQuote(setQuoteData) }
         >
           New Quote
@@ -25,7 +25,7 @@ export default function QuoteBox () {
         &nbsp;&nbsp;
         <a
           id="tweet-quote"
-          className="btn btn-primary"
+          className="btn btn-primary col-5"
           href="twitter.com/intent/tweet"
         >
           Tweet Quote
@@ -34,7 +34,7 @@ export default function QuoteBox () {
       {quoteData && (
         <>
           <h1 className="text-center" id="text">{`"${quoteData.content}"`}</h1>
-          <h4 className="text-center" id="author">{`- ${quoteData.author}`}</h4>
+          <h4 className="text-center" id="author"><em>{`- ${quoteData.author}`}</em></h4>
         </>
       )}
     </div>
