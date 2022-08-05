@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 
+body {
+  background-color: #fff7df;
+}
+
 h1 {
   font-family: 'Charm', cursive;
+  color: #4d4b4d;
 }
 
 h4 {

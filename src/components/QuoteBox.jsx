@@ -13,7 +13,7 @@ export default function QuoteBox () {
       className="container col-8 mt-5"
       id="quote-box"
     >
-      <div className="row mb-5 col-4 mx-auto">
+      <div className="row mb-5 col-6 mx-auto">
         <button
           type="button"
           id="new-quote"
@@ -29,7 +29,7 @@ export default function QuoteBox () {
           href="twitter.com/intent/tweet"
           target="_blank"
         >
-          Tweet Quote
+          Tweet Quote&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
         </a>
       </div>
       {quoteData && (
