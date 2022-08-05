@@ -13,23 +13,23 @@ export default function QuoteBox () {
       className="container col-8 mt-5"
       id="quote-box"
     >
-      <div className="row mb-5 col-6 mx-auto">
+      <div className="row mb-5">
         <button
           type="button"
           id="new-quote"
-          className="btn btn-success col-5"
+          className="btn btn-success col-3 mx-auto"
           onClick={ ()=> fetchQuote(setQuoteData) }
         >
-          New Quote
+          New
         </button>
         &nbsp;&nbsp;
         <a
           id="tweet-quote"
-          className="btn btn-primary col-5"
+          className="btn btn-primary col-3 mx-auto"
           href="twitter.com/intent/tweet"
           target="_blank"
         >
-          Tweet Quote&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-twitter"></i>
         </a>
       </div>
       {quoteData && (
