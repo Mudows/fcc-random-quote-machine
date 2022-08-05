@@ -2,6 +2,11 @@
 
 This project was developed for the [freeCodeCamp Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) certification evaluation.
 
+## Techs Used
+- Bootstrap
+- React
+- JavaScript
+
 ## Project Requirements
 
 - [x] User Story #1: I can see a wrapper element with a corresponding id="quote-box".
