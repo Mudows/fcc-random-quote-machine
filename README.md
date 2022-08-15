@@ -3,9 +3,38 @@
 This project was developed for the [freeCodeCamp Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) certification evaluation.
 
 ## Techs Used
-- Bootstrap
-- React
-- JavaScript
+
+<table align="center">
+  <tr>
+  <td align="center" height="108" width="108">
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+        width="48"
+        height="48"
+        alt="Bootstrap"
+      />
+      <p><strong>Bootstrap</strong></p>
+    </td>
+    <td align="center" height="108" width="108">
+      <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+          width="48"
+          height="48"
+          alt="JavaScript"
+        />
+      <p><strong>JavaScript</strong></p>
+    </td>
+    <td align="center" height="108" width="108">
+      <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          width="48"
+          height="48"
+          alt="React"
+        />
+      <p><strong>React</strong></p>
+    </td>
+  </tr>
+</table>
 
 ## Project Requirements
 
